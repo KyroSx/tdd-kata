@@ -1,18 +1,4 @@
-require_relative 'client'
-
-class CreateClient
-  def create(name, purchase)
-    raise Exception if (name === '') || (purchase <= 0)
-
-    Client.new name, purchase
-  end
-
-  def create_many(client_list)
-    client_list.map! do |client|
-      create client[:name], client[:purchase]
-    end
-  end
-end
+require_relative "create_client"
 
 describe 'Client Creation' do
   before(:each) do
