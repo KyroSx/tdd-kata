@@ -1,6 +1,6 @@
 require_relative "../src/create_client"
 
-describe 'Client Creation' do
+describe '::Client Creation' do
   before(:each) do
     @sut = CreateClient.new
 

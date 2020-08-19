@@ -1,7 +1,7 @@
 require_relative '../src/clients_repository'
 require_relative '../src/client'
 
-describe 'Clients Repository' do
+describe '::Clients Repository' do
   before(:each) do
     @client_list = [
       Client.new('Any Name', 42.0),
