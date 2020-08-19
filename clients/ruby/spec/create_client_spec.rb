@@ -1,4 +1,4 @@
-require_relative "create_client"
+require_relative "../src/create_client"
 
 describe 'Client Creation' do
   before(:each) do

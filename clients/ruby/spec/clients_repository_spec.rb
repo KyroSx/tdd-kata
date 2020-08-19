@@ -1,5 +1,5 @@
-require_relative 'clients_repository'
-require_relative 'client'
+require_relative '../src/clients_repository'
+require_relative '../src/client'
 
 describe 'Clients Repository' do
   before(:each) do
